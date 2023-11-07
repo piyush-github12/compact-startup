@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    position: relative;
+    background-color: rgb(15,17,21);
+    /* background-color: black; */
+}
+.page{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(15,17,21);
+    position: relative;
+}
+#page1{
+    height: 80vh;
+}
+#nav{
+    height: 80px;
+    width: 80%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 10%;
+    top: 50px;
+    color: rgb(144,141,242);
+
+}
+.navrightbox{
+    color: white;
+    padding: 10px 20px ;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(21,23,30);
+    border-radius: 10px;
+
+}
+.navrightbox:hover{
+    background-color: rgb(30, 32, 42);
+
+}
+#page1prt2{
+    width: 80%;
+    height: 55%;
+    /* background-color: aliceblue; */
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    text-align: center;
+    color: white;
+
+}
+.heading{
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    margin-top: 50px;
+    /* font-weight: 900; */
+    font-family: "aqua smile";
+}
+.heading span{
+    font-family: "aqua smile";
+    color: rgb(144,141,242);
+
+
+}
+.startusing{
+    color: rgb(0, 0, 0);
+    padding: 10px 20px ;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 40px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+#imagebox{
+   margin-top: 120px;
+}
+
+#page2 img{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 500px 0px rgba(255, 255, 255, 0.329);
+}
+
+#page3 {
+    text-align: center;
+    padding: 100px 50px;
+    line-height: 80px;
+    color: white;
+}
+#page3 .page3box{
+    height: 300px;
+    width: 300px;
+    /* background-color: aliceblue; */
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 80px;
+    padding: 20px;
+    line-height: 20px;
+}
+.imagecont{
+    width: 600px;
+    height: 500px;
+    background: linear-gradient(to top,rgb(26, 29, 38),rgb(15,17,21)) ;
+    border-radius: 20px;
+
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translate(0,-50%);
+
+}
+.imagecont img{
+    position: absolute;
+
+}
+#page4,#page5 ,#page6{
+    color: white;
+    text-align: center;
+}
+
+.page4box2{
+    width: 500px;
+    height: 400px;
+    /* background-color: aliceblue; */
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translate(0,-50%);
+    padding-top:  100px;
+}
+#page8{
+    padding-left: 100px;
+    color: white;
+
+}
+#page8 .page8box{
+    padding: 20px 20px;
+    width: 400px;
+    height: 250px;
+    /* background-color: aliceblue; */
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 100px;
+    vertical-align: top;
+    margin-left: 20px;
+    background-color: rgb(21,23,30);
+}
+#page9{
+    padding-top: 1px;
+}
+.page9box1{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(21,23,30);
+    border-radius: 20px;
+    position: absolute;
+    left: 7%;
+    top: 40%;
+    padding: 20px 20px;
+    color: white;
+
+}
+.page9box2{
+    width: 350px;
+    height: 450px;
+    background-color: rgb(21,23,30);
+    border-radius: 20px;
+    position: absolute;
+    right: 7%;
+    top: 35%;
+    padding: 20px 20px;
+    color: white;
+
+}
+.page9box3{
+    width: 400px;
+    height: 550px;
+    background-color: rgb(34, 37, 48);
+    border-radius: 20px;
+    position: absolute;
+    right: 35%;
+    top: 30%;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.092);
+    color: white;
+}
+#page9box31{
+    width: 90%;
+    height: 50px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    padding: 10px ;
+    text-align: center;
+    margin-top: 40px;
+}
+#page10{
+    padding: 1px;
+    color: white;
+}
+#plusbox{
+    margin-left: 400px;
+    margin-top: 40px;
+    width: 600px;
+    height: 50px;
+    border-bottom: 1px solid white;
+    display: flex;
+    position: relative;
+}
+#page11{
+    height: 50vh;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.46);
+
+}
+#page11 img{
+    height: 30px;
+    margin-left: 20px;
+}
